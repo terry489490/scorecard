@@ -1,9 +1,7 @@
-import axios from 'axios';
+import axios from "axios";
 
 const instance = axios.create({
-  baseURL: `http://localhost:4000/`,
+  baseURL: "https://terry489490-scorecard.up.railway.app/",
 });
 
 export default instance;
-
-// instance.get('/hi').then((data) => console.log(data));
